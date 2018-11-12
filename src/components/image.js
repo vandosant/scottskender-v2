@@ -19,14 +19,19 @@ const Image = () => (
       query {
         placeholderImage: file(relativePath: { eq: "pic.jpg" }) {
           childImageSharp {
-            fixed(width: 125, height: 125) {
-              ...GatsbyImageSharpFixed
+            fluid(maxHeight: 125) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
       }
     `}
-    render={data => <Img fixed={data.placeholderImage.childImageSharp.fixed} />}
+    render={data => (
+      <Img
+        imgStyle={{ clipPath: 'circle(50%)' }}
+        fluid={data.placeholderImage.childImageSharp.fluid}
+      />
+    )}
   />
 )
 export default Image

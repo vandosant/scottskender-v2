@@ -31,6 +31,7 @@ a:hover {
   background-color: #f2e088;
 }
 .text-container {
+  position: relative;
   width: 100%;
   margin: 0 auto;
 }
@@ -43,7 +44,6 @@ a:hover {
   color: #222222;
   font-size: 15em;
   text-transform: uppercase;
-  margin: 0;
   line-height: 1em;
   opacity: .75;
 }

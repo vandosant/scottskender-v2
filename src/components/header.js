@@ -18,7 +18,11 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <Image />
+      <div style={{ width: '10%' }}>
+        <div style={{ clipPath: 'circle(100px at center)' }}>
+          <Image />
+        </div>
+      </div>
       <div>
         <Link
           to="/"
