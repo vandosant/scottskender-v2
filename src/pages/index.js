@@ -16,19 +16,9 @@ const IndexPage = () => (
           <li>Redux</li>
           <li>GraphQL</li>
           <li>PostgreSQL</li>
-          <li>DynamoDB</li>
+          <li>RabbitMQ</li>
         </ul>
         <ul className={`${styles.textHeroList} ${styles.textHeroListCenter}`}>
-          <li>Domain Driven Design</li>
-          <li>Microservices</li>
-          <li>Evolutionary Arch</li>
-          <li>Amazon Web Services</li>
-          <li>Data Driven</li>
-          <li>Customer Focused</li>
-          <li>Automation Driven</li>
-          <li>Always Improving</li>
-        </ul>
-        <ul className={`${styles.textHeroList} ${styles.textHeroListRight}`}>
           <li>Ruby</li>
           <li>Rails</li>
           <li>RSpec</li>
@@ -37,6 +27,16 @@ const IndexPage = () => (
           <li>Python</li>
           <li>Processing</li>
           <li>openFrameworks</li>
+        </ul>
+        <ul className={`${styles.textHeroList} ${styles.textHeroListRight}`}>
+          <li>Domain Driven Design</li>
+          <li>Microservices</li>
+          <li>Evolutionary Arch</li>
+          <li>Amazon Web Services</li>
+          <li>Data Driven</li>
+          <li>Customer Focused</li>
+          <li>Automation Driven</li>
+          <li>Always Improving</li>
         </ul>
       </section>
     </section>
@@ -67,24 +67,6 @@ const IndexPage = () => (
           <span>voice of the bubble</span>
           <a
             href="https://github.com/vandosant/voice-of-the-bubble"
-            className={styles.textSmall}
-          >
-            &nbsp;[github repo]
-          </a>
-        </div>
-        <div className={styles.panel}>
-          <span>colatte</span>
-          <a
-            href="https://github.com/vandosant/colatte"
-            className={styles.textSmall}
-          >
-            &nbsp;[github repo]
-          </a>
-        </div>
-        <div className={styles.panel}>
-          <span>game of life</span>
-          <a
-            href="https://github.com/vandosant/game-of-life"
             className={styles.textSmall}
           >
             &nbsp;[github repo]
