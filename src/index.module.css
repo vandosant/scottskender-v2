@@ -99,3 +99,7 @@ a:hover {
   margin-bottom: 22px;
   background: #efefef;
 }
+
+.panel:last-of-type {
+  margin-bottom: 0;
+}

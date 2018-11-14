@@ -41,7 +41,7 @@ const IndexPage = () => (
         </ul>
       </section>
     </section>
-    <section className={[styles.mural, styles.muralBlue]}>
+    <section className={`${styles.mural} ${styles.muralBlue}`}>
       <div className={styles.row}>
         <div className={styles.panel}>Projects</div>
         <div className={styles.panel}>
@@ -93,7 +93,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className={[styles.mural, styles.muralYellow]}>
+    <section className={`${styles.mural} ${styles.muralYellow}`}>
       <div className={styles.row}>
         <div className={styles.panel}>Contact</div>
         <div className={styles.panel}>
