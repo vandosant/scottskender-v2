@@ -27,6 +27,11 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
+          <link
+            href="https://fonts.googleapis.com/css?family=PT+Mono|Oswald"
+            rel="stylesheet"
+            type="text/css"
+          />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div

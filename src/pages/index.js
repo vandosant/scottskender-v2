@@ -50,7 +50,7 @@ const IndexPage = () => (
             href="https://github.com/vandosant/web-synthesizer"
             className={styles.textSmall}
           >
-            [github repo]
+            &nbsp;[github repo]
           </a>
         </div>
         <div className={styles.panel}>
@@ -61,7 +61,7 @@ const IndexPage = () => (
             href="https://github.com/vandosant/unite"
             className={styles.textSmall}
           >
-            [github repo]
+            &nbsp;[github repo]
           </a>
         </div>
         <div className={styles.panel}>
@@ -70,7 +70,7 @@ const IndexPage = () => (
             href="https://github.com/vandosant/voice-of-the-bubble"
             className={styles.textSmall}
           >
-            [github repo]
+            &nbsp;[github repo]
           </a>
         </div>
         <div className={styles.panel}>
@@ -79,7 +79,7 @@ const IndexPage = () => (
             href="https://github.com/vandosant/colatte"
             className={styles.textSmall}
           >
-            [github repo]
+            &nbsp;[github repo]
           </a>
         </div>
         <div className={styles.panel}>
@@ -88,7 +88,7 @@ const IndexPage = () => (
             href="https://github.com/vandosant/game-of-life"
             className={styles.textSmall}
           >
-            [github repo]
+            &nbsp;[github repo]
           </a>
         </div>
       </div>

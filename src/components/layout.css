@@ -1,5 +1,6 @@
 html {
   font-family: 'Oswald', sans-serif;
+  text-rendering: optimizeLegibility;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -183,7 +184,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em 'Oswald', sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
