@@ -1,5 +1,11 @@
 language: node_js
 deploy:
   provider: s3
-  bucket: "scottskender-v2"
-  skip_cleanup: true
+  access_key_id: AKIAIYU3Y64NVUOOHHCQ
+  secret_access_key:
+    secure: e8tG9NQJpqyHvulDxbkzMqVq4ehBPlBmVyBRq5TvKTCZnL+DbNA0ASG9oCm5T81ghUJvVBA2q1UKlZ0djt2qclSC0dJRWnVRinBT5j1Y7Azrn2t6fY24SKouwwM0Jn38Uw1ZacCm63VrqmOWv6pHYLmPYUrXWpg9Mmkj7hvf2jKAiw7SEhWkFRMCOZfrAdKoRDU8aSLXDxY9FDuGjT0kwHtD6I4UHuTck6HGu6kKClt1WGtWlIAFbc3bpwhAY9A/6ibz93OrGU5fsiFKIRFIdpD5o8bw6kjNgwisIU4JW7cL43nuo9GPHy7K6pO9Hsq2b2Fycl8FHBngmoo4tfRRud5QwG7VWm1JxC3AuwwwNeW5MJGNUUZoFjfUkzIUUG78rMS1FvV6A5PhgSS+zVnL6nr5Ir60v8hBvQGuqdONmxzG5eW2veojUchdjp+Qr274CPRnBOOPbqNdiCx1xrMheHVmg9O8NZzOaiXGSdEwxtjY88IFqY5y9y73KdrZvqg+ugk0GVjMbRUG6sEZ7xEEMsPFk/Cl6YNKPqc2ctx3iIS1lWJ7Ym4q5L3fLQPU0N8TewKMgyvmXK2Y9MJGSweCYFngWkr1kDmG8fsRXq53IvUVXvXnq2hU0CZQbhedf3vbgJTjcA6YcrkAQ8/0yjYSPkMumpfdEKoGGhrOB5scCDE=
+  bucket: scottskender-v2
+  local-dir: public
+  acl: private
+  on:
+    repo: vandosant/scottskender-v2
