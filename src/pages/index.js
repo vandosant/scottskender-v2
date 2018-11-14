@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import styles from '../index.module.css'
@@ -41,7 +40,7 @@ const IndexPage = () => (
         </ul>
       </section>
     </section>
-    <section className={`${styles.mural} ${styles.muralBlue}`}>
+    <section id="projects" className={`${styles.mural} ${styles.muralBlue}`}>
       <div className={styles.row}>
         <div className={styles.panel}>Projects</div>
         <div className={styles.panel}>
@@ -93,7 +92,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className={`${styles.mural} ${styles.muralYellow}`}>
+    <section id="contact" className={`${styles.mural} ${styles.muralYellow}`}>
       <div className={styles.row}>
         <div className={styles.panel}>Contact</div>
         <div className={styles.panel}>
