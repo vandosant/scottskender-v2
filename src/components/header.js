@@ -35,23 +35,14 @@ const Header = ({ siteTitle }) => (
           Home
         </Link>
         <Link
-          to="#projects"
+          to="/blog"
           style={{
             color: '#bf8415',
             paddingRight: '1rem',
             textDecoration: 'none',
           }}
         >
-          Projects
-        </Link>
-        <Link
-          to="#contact"
-          style={{
-            color: '#bf8415',
-            textDecoration: 'none',
-          }}
-        >
-          Contact
+          Blog
         </Link>
       </div>
     </div>
