@@ -7,7 +7,7 @@ script:
   - npm run build
 deploy:
   provider: s3
-  bucket: scottskender-v2
+  bucket: scottskender.com
   local-dir: public
   acl: public_read
   on:
