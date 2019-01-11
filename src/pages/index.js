@@ -85,7 +85,7 @@ const IndexPage = () => (
           <a href="https://twitter.com/scottskender">Twitter</a>
         </div>
         <div className={styles.panel}>
-          <a href="https://github.com/vandosant">Github</a>
+          <a href="https://github.com/vandosant">GitHub</a>
         </div>
         <div className={styles.panel}>
           <a href="https://linkedin.com/in/scottskender">Linkedin</a>
