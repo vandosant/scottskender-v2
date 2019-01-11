@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Image from './image'
+import styles from './header.module.css'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -8,40 +9,17 @@ const Header = ({ siteTitle }) => (
       background: 'black',
     }}
   >
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <div style={{ width: '10%' }}>
+    <div className={styles.header}>
+      <div style={{ width: '5%' }}>
         <div style={{ clipPath: 'circle(100px at center)' }}>
           <Image />
         </div>
       </div>
       <div>
-        <Link
-          to="/"
-          style={{
-            color: '#bf8415',
-            paddingRight: '1rem',
-            textDecoration: 'none',
-          }}
-        >
+        <Link to="/" className={styles.headerLink}>
           Home
         </Link>
-        <Link
-          to="/blog"
-          style={{
-            color: '#bf8415',
-            paddingRight: '1rem',
-            textDecoration: 'none',
-          }}
-        >
+        <Link to="/blog" className={styles.headerLink}>
           Blog
         </Link>
       </div>
