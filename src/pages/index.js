@@ -5,7 +5,7 @@ import styles from '../index.module.css'
 
 const IndexPage = () => (
   <Layout>
-    <section className={styles.mural}>
+    <section className={`${styles.mural} ${styles.muralHero}`}>
       <section
         className={`${styles.textContainer} ${styles.textContainerHero}`}
       >
