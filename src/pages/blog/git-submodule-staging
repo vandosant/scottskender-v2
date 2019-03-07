@@ -1,0 +1,35 @@
+---
+path: "/blog/2019/03/07/git-submodule-staging.md"
+date: "2019-03-07"
+title: "Staging Git Submodules"
+---
+
+So, when working with git submodules, it turns out that if you try to update a git submodule from its parent repository
+when changes in child submodules have been staged but not yet committed, that the update of the child submodule is a no-op
+and the child will not be updated as desired!
+
+Command in question:
+```bash
+git submodule update --recursive
+```
+
+Expected:
+When I run the above command, it actually points to the commit of the submodule that my parent git repository is pointing to.
+
+Actual:
+If the submodule changes have been staged but not yet committed in the parent repository, then the command does not make any changes!
+
+Solution:
+
+(From the parent repository)
+```bash
+git reset HEAD .
+```
+or
+```bash
+git reset HEAD name-of-the-submodule
+```
+
+Then the command above works!
+
+Example repo [here](https://github.com/vandosant/example-parent-repo)
